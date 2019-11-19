@@ -21,7 +21,7 @@ The original data set, found ![here on Kaggle](https://www.kaggle.com/c/pubg-fin
 3. Heals, boosts and other staying-alive metrics
 4. The target: win place percentage
 
-I decided to only look at the solos game mode, so it's one person against 99 others and it's a fight to be the last one standing. This removed the extra factor of having people be in teams, as well as being my personal favorite game type. It gives the true battle royale experience.
+I decided to only look at the solos game mode, so it's one person against 99 others and it's a fight to be the last one standing. This removed the extra factor of having people on teams, as well as being my personal favorite game type. It gives the true battle royale experience.
 
 ## Modeling Philosophy
 
