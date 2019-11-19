@@ -18,4 +18,18 @@ The original data set, found ![here on Kaggle](https://www.kaggle.com/c/pubg-fin
 
 1. Kills, kill streaks, and kill place
 2. Ride distance, swim distance, and walk distance
-3. 
+3. Heals, boosts and other staying-alive metrics
+4. The target: win place percentage
+
+I decided to only look at the solos game mode, so it's one person against 99 others and it's a fight to be the last one standing. This removed the extra factor of having people be in teams, as well as being my personal favorite game type. It gives the true battle royale experience.
+
+Modeling the data set was done with supervised regression models, including Linear Regression, Lasso and Ridge Regression, Random Forest Regression and XGBoost for some extra practice. We were specifically looking at how important each variable was to the final prediction, or feature analysis, and did so through the use of coefficients of importance to each model 
+
+## Findings
+
+* After looking at 5 different models, the best way to win in PUBG is to keep moving and not camp
+* Linear and Ridge Regression had a top coefficient of road kills
+* Lasso Regression had a top coefficient of weapons acquired
+* Random Forest Regression and XGBoost both had a top coefficient of walk distance
+  * Kill place coming in second for Random Forest and third for XGBoost
+
