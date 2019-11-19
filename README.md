@@ -31,7 +31,7 @@ Modeling the data set was done with supervised regression models as the target v
 
 * After looking at 5 different models, the best way to win in PUBG is to keep moving and not camp
 * XGBoost was the most accurate model, with an R^2 score of .96
- * Random Forest came second with an R^2 of .95, Linear and Ridge both at .88, and Lasso with an R^2 of .86
+  * Random Forest came second with an R^2 of .95, Linear and Ridge both at .88, and Lasso with an R^2 of .86
 * Linear and Ridge Regression had a top coefficient of road kills
 * Lasso Regression had a top coefficient of weapons acquired
 * Random Forest Regression and XGBoost both had a top coefficient of walk distance
